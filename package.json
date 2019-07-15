@@ -1,0 +1,15 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://vladislav-og.github.io",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
