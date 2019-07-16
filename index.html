@@ -1,11 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <p>Test push for my site</p>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<noscript><link rel="stylesheet" href="./css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-<script type="text/javascript" src="js/bundle.js"></script></body>
+				<!-- Header -->
+					<header id="header">
+						<h1>Vladislav Ogorodnik</h1>
+						<nav>
+							<ul>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/vladislav-og" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/vladislav-ogorodnik/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</nav>
+					</header>
+				<section id="two" class="section_wrapper alt style2">
+					<section class="spotlight">
+						<div class="image"><img src="./css/images/project1.jpg" alt="" /></div>
+							<div class="content">
+								<h2>Project 1</h2>
+							</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="./css/images/project2.jpg" alt="" /></div>
+							<div class="content">
+								<h2>Project 2</h2>
+							</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="./css/images/project3.jpg" alt="" /></div>
+						<div class="content">
+							<h2>Project 3</h2>
+						</div>
+					</section>
+				</section>
+			</div>
+
+			</div>
+			<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); };
+			// window.ontouchmove = function() { return false; };
+			// window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	<script type="text/javascript" src="js/bundle.js"></script></body>
 </html>
